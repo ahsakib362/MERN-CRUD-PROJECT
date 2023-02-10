@@ -1,0 +1,15 @@
+{
+  "name": "reactapp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server-site && npm run start-dev\" \"cd client-site && npm start\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
